@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+ <meta name="viewport" content="width=device-width, initial-scale=1"> 
+ <head>
+<title>Projects</title>
+<link rel="stylesheet" href="static/css/styles.css">
+</head>
+<body>
+
+<div id="mySidenav" class="sidenav">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <a href="https://jkraemer.eu">About Me</a>
+  <a class="active" href="projects.html">My Projects</a>
+  <a href="contact.html">Contact</a>
+</div>
+<div style="margin-left: 30px;">
+<span style="font-size:30px;cursor:pointer;position:fixed;" onclick="openNav()">&#9776;</span>
+<p>.</p>
+<h1>My Projects</h1>
+<p>This is the page that all my private projects are linked on.</p>
+<h2><a target="_blank" rel="noreferrer noopener" href="https://criticalconstants.jkraemer.eu/" style="color: #f7a24d;">Critical Constants</a></h2>
+<p> This webapp allows access to a database of chemical stability constants. The Data has been provided by NIST and put in the public Domain. For more information just click the title to access it!</p>
+<h2><a target="_blank" rel="noreferrer noopener" href="https://genskew.csb.univie.ac.at/" style="color: #f7a24d;">GenSkew</a></h2>
+<p> I developed this at my workplace at <a target="_blank" rel="noreferrer noopener"href="https://cube.univie.ac.at/" style="color: #f7a24d;"> CUBE</a>. It calculates and plotts nucleotide skew data. For more information just click the title to access it!</p>
+<h2><a target="_blank" rel="noreferrer noopener" href="https://github.com/univieCUBE/gepard" style="color: #f7a24d;">Gepard</a></h2>
+<p> At <a target="_blank" rel="noreferrer noopener"href="https://cube.univie.ac.at/" style="color: #f7a24d;">CUBE</a> I also worked on updating the program Gepard. For more information just click the title to access it!</p>
+</div>
+</body>
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+  document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "30px";
+  document.getElementById("main").style.marginLeft = "30px";
+  document.body.style.backgroundColor = "white";
+} 
+window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-KQZ9M9P65C');
+</script>
+</html> 
